@@ -1,7 +1,11 @@
-import Image from "next/image";
+import React from "react";
+import MovieData from "./movie/movieData";
 
-export default function Home() {
+export default function page() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+		<div>
+			page
+			<MovieData />
+		</div>
 	);
 }

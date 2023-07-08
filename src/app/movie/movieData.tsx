@@ -9,9 +9,9 @@ const BASE_URL = moviesUrl;
 const API_URL = BASE_URL + API_KEY;
 
 interface movie {
-	imageUrl: string;
+	backdrop_path: string;
 	title: string;
-	date: string;
+	popularity: string;
 }
 
 export default function MovieData() {
@@ -30,7 +30,7 @@ export default function MovieData() {
 	}, []);
 	return (
 		<div>
-			{movieData.map((movie, index) => {
+			{movieData.map(({ movie, index }: { movie: movie; index: string }) => {
 				return <MovieCard key={index} {...movie} />;
 			})}
 		</div>

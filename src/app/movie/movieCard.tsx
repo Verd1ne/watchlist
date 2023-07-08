@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function MovieCard({ backdrop_path, title, popularity }) {
+export default function MovieCard({ backdrop_path, title, popularity }: any) {
 	return (
 		<div>
 			<img

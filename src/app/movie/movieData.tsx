@@ -13,9 +13,8 @@ interface movie {
 	title: string;
 	popularity: string;
 }
-
+export const [movieData, setmovieData] = useState([]);
 export default function MovieData() {
-	const [movieData, setmovieData] = useState([]);
 	useEffect(() => {
 		axios
 			.get(`${API_URL}`)
@@ -30,6 +29,7 @@ export default function MovieData() {
 	}, []);
 	return (
 		<div>
+			{...movieData}
 			{movieData.map(({ movie, index }: { movie: movie; index: string }) => {
 				return <MovieCard key={index} {...movie} />;
 			})}

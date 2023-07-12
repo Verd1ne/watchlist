@@ -13,8 +13,9 @@ interface movie {
 	title: string;
 	popularity: string;
 }
-export const [movieData, setmovieData] = useState([]);
+
 export default function MovieData() {
+	const [movieData, setmovieData] = useState([]);
 	useEffect(() => {
 		axios
 			.get(`${API_URL}`)

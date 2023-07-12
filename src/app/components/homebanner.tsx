@@ -5,7 +5,7 @@ import peakyBlindersBanner from "../../../public/peakyBlindersText.png";
 
 export default function HomeBanner() {
 	return (
-		<div className="homeBanner aspect-[9/4] max-h-[780px] bg-cover snap-center snap-always">
+		<div className="homeBanner aspect-[9/4] h-750 bg-cover snap-center snap-always">
 			<div className="homeBannerCasing h-full w-full">
 				<Image
 					className="titleImage pl-12"

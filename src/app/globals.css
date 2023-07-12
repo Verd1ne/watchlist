@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
+/* html,
 * {
 	scroll-snap-type: y mandatory;
-	/* scroll-behavior: smooth; */
-}
+	scroll-behavior: smooth; 
+} */
 
 .homeBanner {
 	background-image: url("~/public/peakyBlindersBanner.jpg");
@@ -21,9 +21,9 @@ html,
 	);
 	content: "";
 	position: relative;
-	height: 780px;
+	height: 750px;
 }
-
+/* 
 .homePage {
 	scroll-snap-align: start;
 	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -31,4 +31,8 @@ html,
 
 .homeMenu {
 	scroll-snap-align: start;
-}
+} */
+
+/* .homeMenu {
+	background-image: url("../../public/homeMenuBackground.png");
+} */

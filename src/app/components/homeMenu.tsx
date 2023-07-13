@@ -5,9 +5,8 @@ import ParticleBackground from "./particleBackground";
 
 export default function HomeMenu() {
 	return (
-		<div className="homeMenu text-white flex flex-row font-bold text-xl tracking-wider mb-16 h-screen">
+		<div className="homeMenu text-white flex flex-row font-bold text-xl tracking-wider h-screen mb-20">
 			<ParticleBackground />
-
 			<div className="menu-1 h-full w-1/3">
 				<div>
 					<div className="border-b-2 flex flex-row w-[380px] mb-20 mx-auto pt-16">
@@ -23,9 +22,11 @@ export default function HomeMenu() {
 					height={500}
 				/>
 				<div className="mx-auto w-[380px]">
-					<button className="border-[1px] border-white py-4 w-[380px] mt-16 tracking-widest hover:bg-white hover:text-black hover:scale-105 transition ease duration-300">
-						SEE ALL
-					</button>
+					<a href="/continue-watching">
+						<button className="border-[1px] border-white py-4 w-[380px] mt-16 tracking-widest hover:bg-white hover:text-black hover:scale-105 transition ease duration-300">
+							SEE ALL
+						</button>
+					</a>
 				</div>
 			</div>
 			<div className="menu-2 h-full w-1/3">
@@ -43,9 +44,11 @@ export default function HomeMenu() {
 					height={500}
 				/>
 				<div className="mx-auto w-[380px]">
-					<button className="border-[1px] border-white py-4 w-[380px] mt-16 tracking-widest hover:bg-white hover:text-black hover:scale-105 transition ease duration-300">
-						SEE ALL
-					</button>
+					<a href="/my-list">
+						<button className="border-[1px] border-white py-4 w-[380px] mt-16 tracking-widest hover:bg-white hover:text-black hover:scale-105 transition ease duration-300">
+							SEE ALL
+						</button>
+					</a>
 				</div>
 			</div>
 			<div className="menu-3 h-full w-1/3">
@@ -63,9 +66,11 @@ export default function HomeMenu() {
 					height={500}
 				/>
 				<div className="mx-auto w-[380px]">
-					<button className="border-[1px] border-white py-4 w-[380px] mt-16 tracking-widest hover:bg-white hover:text-black hover:scale-105 transition ease duration-300">
-						SEE ALL
-					</button>
+					<a href="/latest">
+						<button className="border-[1px] border-white py-4 w-[380px] mt-16 tracking-widest hover:bg-white hover:text-black hover:scale-105 transition ease duration-300">
+							SEE ALL
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>

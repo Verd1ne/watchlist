@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import peakyBlindersBanner from "../../../public/peakyBlindersText.png";
 
-export default function homeBanner() {
+export default function HomeBanner() {
 	return (
 		<div className="homeBanner aspect-[9/4] h-750 bg-cover snap-center snap-always">
 			<div className="homeBannerCasing h-full w-full">

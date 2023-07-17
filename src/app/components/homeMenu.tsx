@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import ParticleBackground from "./particleBackground";
 
-export default function homeMenu() {
+export default function HomeMenu() {
 	return (
 		<div className="homeMenu text-white flex flex-row font-bold text-xl tracking-wider h-screen mb-20">
 			<ParticleBackground />

@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { moviesUrl } from "../constant";
 import axios from "axios";
-import MovieCard from "./MovieCard";
+import MovieCard from "./movieCard";
 
 const API_KEY = "?api_key=96a0f6de0d8648b87be78503fc99fb76";
 const BASE_URL = moviesUrl;
@@ -14,7 +14,7 @@ interface movie {
 	popularity: string;
 }
 
-export default function MovieData() {
+export default function movieData() {
 	const [movieData, setmovieData] = useState([]);
 	useEffect(() => {
 		axios

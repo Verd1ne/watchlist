@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar() {
+export default function navbar() {
 	return (
 		<nav className=" border-gray-200 bg-black">
 			<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4">

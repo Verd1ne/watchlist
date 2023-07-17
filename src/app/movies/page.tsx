@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import Navbar from "../components/Navbar";
-import HomeBanner from "../components/HomeBanner";
+import Navbar from "../components/navbar";
+import HomeBanner from "../components/homeBanner";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 
 export default function page() {

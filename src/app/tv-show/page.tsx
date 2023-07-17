@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import HomeBanner from "../components/HomeBanner";
+import Navbar from "../components/navbar";
+import HomeBanner from "../components/homeBanner";
 
 export default function page() {
 	return (

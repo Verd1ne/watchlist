@@ -16,7 +16,7 @@ export default async function RootLayout({
 }) {
 	return (
 		<ClerkProvider>
-			<html lang="en">
+			<html lang="en" className="bg-black text-white">
 				<body className={inter.className}>{children}</body>
 			</html>
 		</ClerkProvider>

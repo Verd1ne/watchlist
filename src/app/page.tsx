@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./components/navbar";
-import HomeBanner from "./components/homeBanner";
-import HomeMenu from "./components/homeMenu";
+import Navbar from "./components/Navbar";
+import HomeBanner from "./components/HomeBanner";
+import HomeMenu from "./components/HomeMenu";
 
 export default function page() {
 	return (

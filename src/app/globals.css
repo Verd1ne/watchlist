@@ -36,3 +36,15 @@
 /* .homeMenu {
 	background-image: url("../../public/homeMenuBackground.png");
 } */
+
+.font-pt {
+	font-family: "PT Sans", sans-serif;
+}
+
+.font-montserrat {
+	font-family: "Montserrat", sans-serif;
+}
+
+.font-poppins {
+	font-family: "Poppins", sans-serif;
+}
